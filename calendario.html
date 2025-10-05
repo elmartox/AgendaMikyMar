@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendario de Citas </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(135deg, #708394, #726f4c);">
+  <h1> Calendario de Citas</h1>
+
+  <div class="calendar">
+    <input type="date" id="fechaCita">
+    <input type="text" id="tituloCita" placeholder="Ponle un titulo a la date">
+    <textarea id="descripcionCita" rows="3" placeholder="Descripción porque no soy adivino"></textarea>
+    <button id="agregarCita">Agregar Cita</button>
+    <div id="listaCitas"></div>
+  </div>
+
+  <p style="margin-top:15px;">
+    <button onclick="window.location.href='index.html'">🏠 Volver</button>
+  </p>
+
+  <script src="calendario.js"></script>
+</body>
+</html>
